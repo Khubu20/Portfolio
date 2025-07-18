@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <title>Khushboo | Portfolio</title>
+  <link rel="stylesheet" href="g.css">
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
@@ -112,7 +113,7 @@ It challenges players to click on randomly appearing moles within a time limit t
           <div class="project-back">
             <span class="project-domain">Website</span>
             <span class="project-title">Password Generator</span>
-            <span class="project-tech">Python, Telegram Bot API, Judge0 API</span>
+            <span class="project-tech">HTML,CSS,JavaScript</span>
             <span class="project-summary">A simple and secure Password Generator built with HTML, CSS, and JavaScript.
 It creates strong, customizable passwords using a mix of letters, numbers, and symbols.</span>
             <ul>
@@ -168,25 +169,69 @@ It creates strong, customizable passwords using a mix of letters, numbers, and s
 <!-- Scroll to Top Button -->
 <button id="scrollToTopBtn" title="Go to top">↑</button>
 
-<div class="contact-form-section">
-  <h2 class="contact-heading">Contact Me</h2>
-  <form class="contact-form" action="https://formspree.io/f/xqabjgrq" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit" class="btn">Send Message</button>
-  </form>
+<div class="background">
+  <div class="container">
+    <div class="screen">
+      <div class="screen-header">
+        <div class="screen-header-left">
+          <div class="screen-header-button close"></div>
+          <div class="screen-header-button maximize"></div>
+          <div class="screen-header-button minimize"></div>
+        </div>
+        <div class="screen-header-right">
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+          <div class="screen-header-ellipsis"></div>
+        </div>
+      </div>
+      <div class="screen-body">
+        <div class="screen-body-item left">
+          <div class="app-title">
+            <span>Contact</span>
+            <span>FORM</span>
+          </div>
+          <div class="app-contact">CONTACT INFO : <a href="mailto:khubu.gupta20@gmail.com">khubu.gupta20@gmail.com</a></div>
+        </div>
+        <div class="screen-body-item">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="717ac13a-d336-47cb-9bf3-6f94cc84f588" />
+            <div class="app-form">
+              <div class="app-form-group">
+                <input class="app-form-control" type="text" name="name" placeholder="Your Name" required />
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control" type="email" name="email" placeholder="Your Email" required />
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control" type="tel" name="phone" placeholder="Your Phone Number" pattern="^\+?[1-9]\d{1,14}$" required />
+              </div>
+              <div class="app-form-group">
+                <textarea class="app-form-control" name="message" rows="4" placeholder="Your Message" required></textarea>
+              </div>
+              <div class="app-form-group buttons">
+                <button type="submit" class="app-form-button">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="social-icons">
+
+<!-- <div class="social-icons">
   <a href="https://github.com/khubu20" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="32" />
   </a>
   <a href="https://www.linkedin.com/in/khushboo-gupta-47b313256" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733561.png" width="32" />
   </a>
-</div>
+</div> -->
 
 <script src="script.js"></script>
 </body>
 </html>
+
+
+
